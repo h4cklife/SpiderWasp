@@ -1,0 +1,7 @@
+__pycache__
+venv/
+config.py
+log/alert.log
+log/service.log
+log/error.log
+*.pyc
