@@ -12,7 +12,7 @@ def GetClients():
 
     Returns clients
 
-    This function can be modified to return your client email rules from a MySQL database
+    This function can be modified to return your clients and email rules from a MySQL database
 
     [{CLIENT ID, FULL NAME, MOBILE, ERMAIL}]
 

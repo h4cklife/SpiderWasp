@@ -12,7 +12,7 @@ def GetClientKeywordRules():
 
     Returns client_keyword_rules
 
-    This function can be modified to return your client email rules from a MySQL database
+    This function can be modified to return your client keyword rules from a MySQL database
 
     [{CLIENT_ID, KEYWORD}]
     """

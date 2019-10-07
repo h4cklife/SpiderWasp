@@ -1,6 +1,6 @@
 """
 
-service, pages, viewall, viewpaste, tag, tag_end
+Services
 
 """
 def GetServices():
