@@ -34,7 +34,7 @@
 .##....##.##.........##..##.....##.##.......##....##.....##..##..##.##.....##.##....##.##.......
 ..######..##........####.########..########.##.....##.....###..###..##.....##..######..##.......  
 
-                Paste site and Dark Web Data and Identity Monitor v0.5
+                Paste Site and Dark Web Data and Identity Monitor v0.5
 ```
 
 # SpiderWasp v0.5
@@ -50,6 +50,19 @@ could easily be converted into your own web applications and/or application with
 
 This code is open-source, but please give credit where credit is due in order to support 
 the original developer, h4cklife.
+
+## Supported Services
+    
+    1. Slexy
+    2. JustPaste - DEAD
+    3. Lpaste - DEAD 
+    4. Pastefs - Now using JS/JQ to prevent parsing
+    5. Pastelink
+    6. Pasteonline - DEAD
+    7. Paste
+    8. Pastie
+    
+    Pastebin and HaveIBeenPwned APIs will be added back into this public version of the application soon
 
 ## Requirements
     
@@ -74,6 +87,12 @@ the original developer, h4cklife.
         Add your clients
     5. vim libs/Rules.py
         Add your client keyword rules
+
+## Service Scripts
+
+If you need to run different services at different intervals, you can move the service_scripts/* files
+unto the root SpiderWasp/ directory and run them from a cronjob at the required intervals. This may be
+necessary for services that are update with new posts more or less often than others.
         
 ## Contact
     
