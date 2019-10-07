@@ -58,7 +58,7 @@ the original developer, h4cklife.
 
 ## Installation
 
-    1. git clone https://github.com/h4cklife/spiderwasp.git
+    1. git clone https://github.com/h4cklife/SpiderWasp.git
     2. cd spiderwasp
     3. python3 -m virtualenv venv
     4. source venv/bin/activate
