@@ -8,10 +8,9 @@ import sys
 import random
 from time import time, sleep
 
-sys.path.insert(0, '../libs')
-sys.path.insert(1, '../')
+sys.path.insert(0, '../')
 
-from PasteSiteParser import PasteSiteParser
+from libs.PasteSiteParser import PasteSiteParser
 
 service = 'Justpasteit'
 pages = ['/top', '/top/day/new']
