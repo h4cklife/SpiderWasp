@@ -67,15 +67,27 @@ the original developer, h4cklife.
 ## Requirements
     
     1. Python3
-    2. Python3-virtualenv
+    2. Pip3
+    3. Python3-virtualenv (optional)
 
 ## Installation
+
+Depending on your use case, you may wish to use a venv or install the modules globally to make it
+easier to run the application from a cronjob without the need to activate the venv.
+
+######Install with Virtual Environment
 
     1. git clone https://github.com/h4cklife/SpiderWasp.git
     2. cd spiderwasp
     3. python3 -m virtualenv venv
     4. source venv/bin/activate
     5. pip3 install -r REQUIREMENTS
+    
+######Installing globally
+
+    1. git clone https://github.com/h4cklife/SpiderWasp.git
+    2. cd spiderwasp
+    3. pip3 install -r REQUIREMENTS    
 
 ## Configuration
 
@@ -93,7 +105,12 @@ the original developer, h4cklife.
 If you need to run different services at different intervals, you can move the service_scripts/* files
 unto the root SpiderWasp/ directory and run them from a cronjob at the required intervals. This may be
 necessary for services that are update with new posts more or less often than others.
-        
+    
+## Coming Soon
+
+    1. Proxy/Tor support 
+    2. Dark web monitoring
+       
 ## Contact
     
     1. Instagram : h4cklife

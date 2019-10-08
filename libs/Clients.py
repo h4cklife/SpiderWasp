@@ -14,7 +14,10 @@ def GetClients():
 
     This function can be modified to return your clients and email rules from a MySQL database
 
-    [{CLIENT ID, FULL NAME, MOBILE, ERMAIL}]
+    Using mysql.connector v2+ you can return a dict.
+        See: https://stackoverflow.com/questions/22769873/python-mysql-connector-dictcursor
+
+    [{"client_id": 0, "full_name": "John Doe", "mobile": "12223334444", "email": "example@gmail.com"},]
 
     """
     clients = [

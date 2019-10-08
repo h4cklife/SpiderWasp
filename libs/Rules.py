@@ -14,10 +14,14 @@ def GetClientKeywordRules():
 
     This function can be modified to return your client keyword rules from a MySQL database
 
-    [{CLIENT_ID, KEYWORD}]
+    Using mysql.connector v2+ you can return a dict.
+        See: https://stackoverflow.com/questions/22769873/python-mysql-connector-dictcursor
+
+    [{"client_id": 0, "keyword": "randomword"}]
+    
     """
     client_keyword_rules = [
-        [0, "randomword"]
+        {"client_id": 0, "keyword": "randomword"}
     ]
 
     return client_keyword_rules

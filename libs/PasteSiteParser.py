@@ -111,15 +111,15 @@ class PasteSiteParser(object):
         """ Monitor Client Keywords """
         client_keyword_rules= GetClientKeywordRules()
 
-        for [client_id, keyword] in client_keyword_rules:
+        for rule in client_keyword_rules:
+            keyword = str(rule['keyword'])
             if bool(re.search(keyword, data)):
                 """ If keyword is found notify the client and save an Alert Log """
-                keyword = str(keyword)
                 sms = "{0} Identified {1} at {2}{3}".format(config.APP, str(keyword), self.view_paste, code)
                 url = "{}{}".format(self.view_paste, code)
 
                 """ Logging and Notifications """
-                client = GetClient(client_id)
+                client = GetClient(rule['client_id'])
                 Reusables.write_log("[{0}-ALERT] : CLIENT_KEYWORD_RULE : Found {1} in {2}".format(config.APP,
                                                                                                   keyword, url))
                 Reusables.send_twilio_sms(client['mobile'], sms)
