@@ -102,9 +102,9 @@ easier to run the application from a cronjob without the need to activate the ve
 
 ## Service Scripts
 
-If you need to run different services at different intervals, you can move the service_scripts/* files
-into the root SpiderWasp/ directory and run them from a cronjob at the required intervals. This may be
-necessary for services that are update with new posts more or less often than others.
+If you need to parse services at different intervals you can run the individual SpiderWasp/service_scripts
+from that working directory and initiate them from a cronjob at the required intervals. This may be
+necessary for services that are updated with new paste posts more or less frequently than others.
 
 Review the Supported Services section for details on the scripts/services that are still live and working.
     

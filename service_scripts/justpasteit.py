@@ -1,10 +1,17 @@
 """
-Proof of Concept Paste Site Parser
+
+JustPasteIt
+
 """
 
+import sys
 import random
 from time import time, sleep
-from libs.PasteSiteParser import PasteSiteParser
+
+sys.path.insert(0, '../libs')
+sys.path.insert(1, '../')
+
+from PasteSiteParser import PasteSiteParser
 
 service = 'Justpasteit'
 pages = ['/top', '/top/day/new']

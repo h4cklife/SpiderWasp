@@ -1,6 +1,17 @@
+"""
+
+PasteLink
+
+"""
+
+import sys
 import random
 from time import time, sleep
-from libs.PasteSiteParser import PasteSiteParser
+
+sys.path.insert(0, '../libs')
+sys.path.insert(1, '../')
+
+from PasteSiteParser import PasteSiteParser
 
 service = 'Pastelink'
 pages = ['/read']
