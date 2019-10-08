@@ -75,7 +75,7 @@ the original developer, h4cklife.
 Depending on your use case, you may wish to use a venv or install the modules globally to make it
 easier to run the application from a cronjob without the need to activate the venv.
 
-######Install with Virtual Environment
+#####Install with Virtual Environment
 
     1. git clone https://github.com/h4cklife/SpiderWasp.git
     2. cd spiderwasp
@@ -83,7 +83,7 @@ easier to run the application from a cronjob without the need to activate the ve
     4. source venv/bin/activate
     5. pip3 install -r REQUIREMENTS
     
-######Installing globally
+#####Installing globally
 
     1. git clone https://github.com/h4cklife/SpiderWasp.git
     2. cd spiderwasp
