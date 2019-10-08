@@ -81,13 +81,13 @@ easier to run the application from a cronjob without the need to activate the ve
     2. cd spiderwasp
     3. python3 -m virtualenv venv
     4. source venv/bin/activate
-    5. pip3 install -r REQUIREMENTS
+    5. pip3 install -r requirements.txt
     
 ###Installing globally
 
     1. git clone https://github.com/h4cklife/SpiderWasp.git
     2. cd spiderwasp
-    3. pip3 install -r REQUIREMENTS    
+    3. pip3 install -r requirements.txt    
 
 ## Configuration
 
